@@ -8,7 +8,6 @@ import {
 } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import "react-leaflet-markercluster/dist/styles.min.css";
-import "./css/markers.css";
 import axios from "axios";
 import { geoJSON } from "./rents";
 
