@@ -1,0 +1,29 @@
+.leaflet-control-container {
+  position: absolute;
+  right: 56px;
+  z-index: 400;
+}
+
+* {
+  transition: background-color 0.15s ease-out;
+}
+
+span.chakra-checkbox__control {
+  border-radius: 12px;
+}
+
+body[class="chakra-ui-dark"] .leaflet-bar a:first-child {
+  background-color: var(--chakra-colors-gray-800);
+  color: white;
+}
+
+body[class="chakra-ui-dark"] .leaflet-bar a:last-child {
+  background-color: var(--chakra-colors-gray-800);
+  color: white;
+}
+
+body[class="chakra-ui-dark"] .leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--chakra-colors-gray-800);
+  color: white;
+}
